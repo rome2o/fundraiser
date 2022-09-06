@@ -1,12 +1,12 @@
 export default function Volunteers(){
     return (
-        <section class="bg-white py-16">
+        <section class="bg-green-500 ">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
                 <div class="w-full h-full bg-green-500 rounded-2xl md:rounded-3xl relative lg:flex items-center">
                     <div class="lg:block w-full">
-                        <img src="images/hands.png" alt="Image" class="relative z-10" />
+                        <img src="images/hands_3.png" alt="Image" class="relative z-10 " />
                         <img src="images/pattern-2.png" alt="Image" class="absolute top-14 left-40" />
                         <img src="images/pattern.png" alt="Image" class="absolute top-0 z-0" />
                     </div>
