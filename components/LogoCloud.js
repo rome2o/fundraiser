@@ -10,10 +10,10 @@ export default function LogoCloud(){
                     <img src="images/salamfest.png" class="w-40 mx-auto" alt="" />
                 </div>
                 <div class="p-4">
-                    <img src="images/sindhisangat.jpeg" class="w-40  mx-auto" alt="" />
+                    <img src="images/sindhisangat.png" class="w-40  mx-auto" alt="" />
                 </div>
                 <div class="p-4">
-                    <img src="images/sindhisangat.jpeg" class="w-40  mx-auto" alt="" />
+                    <img src="images/paa.png" class="w-40  mx-auto" alt="" />
                 </div>
             </div>
         </div>
