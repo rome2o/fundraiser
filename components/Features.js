@@ -35,7 +35,7 @@ export default function Features(){
             <Feature heading={'Kids Games'} text={'Brings your kids along, make it a day for them too.'} icon={<GiKidSlide />} />
             </div>
             <div class="text-center mt-6">
-            <a class="px-6 py-4 inline bg-info font-semibold text-white text-lg rounded-xl bg-green-500 hover:bg-green-600 transition ease-in-out duration-500" href="https://goo.gl/maps/NHqvJvzfDU48GjAV7" target="_blank">
+            <a class="px-6 py-4 inline bg-info font-semibold text-green-600 border-green-600 border text-lg rounded-xl hover:text-white hover:bg-green-600 transition ease-in-out duration-500" href="https://goo.gl/maps/NHqvJvzfDU48GjAV7" target="_blank">
                 Get directions
             </a>
           </div>
