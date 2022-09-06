@@ -52,7 +52,7 @@ export default function Header() {
             )}
           >
             <a
-              href="#"
+              href="https://www.facebook.com/events/743156750447213" target="_blank" 
               class="px-6 py-4  text-yellow-400 border-yellow-400 border font-semibold text-lg rounded-xl hover:bg-yellow-400 hover:text-black transition ease-in-out duration-500 mb-5 md:mb-0"
             >
               Join community

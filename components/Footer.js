@@ -11,10 +11,10 @@ export default function Footer() {
                 </div>
                 <p class="font-light text-gray-400 text-md md:text-lg text-center ">Join our hands to raise the funds <br /> by common people, for common people.</p>
                 <div class="flex items-center justify-center  space-x-5">
-                    <a href="#" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
+                    <a href="https://www.facebook.com/events/743156750447213" target="_blank" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
                         <BsFacebook />
                     </a>
-                    <a href="#" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
+                    <a href="https://www.eventbrite.com.au/e/pakistan-floods-fund-raising-fawkner-community-sports-hall-tickets-414411625327" target="_blank" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
                         <SiEventbrite />
                     </a>
                 </div>
