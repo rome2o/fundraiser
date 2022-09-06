@@ -1,5 +1,6 @@
 import React from "react";
 import cx from "classnames";
+import {GiHamburgerMenu} from 'react-icons/gi'
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [flyer, setFlyer] = React.useState(false);
@@ -18,10 +19,10 @@ export default function Header() {
             />
 
             <button
-              class="lg:hidden w-10 h-10 ml-auto flex items-center justify-center border border-blue-500 text-blue-500 rounded-md"
+              class="lg:hidden w-10 h-10 ml-auto flex items-center justify-center border border-white text-white rounded-md"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i data-feather="menu"></i>
+              <GiHamburgerMenu />
             </button>
           </div>
 
@@ -48,7 +49,7 @@ export default function Header() {
           <div
             class={cx(
               "lg:flex flex-col md:flex-row md:items-center text-center md:space-x-6",
-              { hidden: !navbarOpen, flex: navbarOpen }
+              { hidden: !navbarOpen, 'flex mt-4': navbarOpen }
             )}
           >
             <a
