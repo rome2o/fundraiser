@@ -1,20 +1,25 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-
+import Image from 'next/image'
 const fadeImages = [
+
   {
-  url: 'https://picsum.photos/800/800',
+    url: '/images/flood-affectees-3.jpeg',
+    caption: 'Second Slide'
+    },
+  {
+    url: '/images/flood-affectees-4.jpg',
+    caption: 'Second Slide'
+    },
+  {
+  url: '/images/flood-affectees-2.png',
   caption: 'First Slide'
   },
   {
-  url: 'https://picsum.photos/800/800',
+  url: '/images/flood-affectees-1.webp',
   caption: 'Second Slide'
-  },
-  {
-  url: 'https://picsum.photos/800/800',
-  caption: 'Third Slide'
-  },
+  }
 ];
 
 const Slideshow = () => {
@@ -24,7 +29,7 @@ const Slideshow = () => {
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container" style={{minWidth: '200px'}}>
-              <img src={fadeImage.url} className="rounded-lg w-full" />
+              <Image src={fadeImage.url} layout="responsive" objectFit={'cover'} width={'auto'} height="100%" className="rounded-lg w-full" />
             </div>
           </div>
         ))}
