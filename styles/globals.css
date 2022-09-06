@@ -10,7 +10,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #000000;
 }
 
 a {
@@ -74,10 +73,6 @@ a {
   transition: 0.4s;
 }
 
-.clearNav {
-  backdrop-filter: saturate(180%) blur(5px) !important;
-  background-color: rgba(0, 0, 0, 0.7) !important;
-}
 
 .fsac4 {
   display: grid;
@@ -99,4 +94,16 @@ a {
 
 .fkrr1 {
   font-family: "Inter", sans-serif;
+}
+
+
+.nav svg {
+    color: #fffbeb;
+    fill: currentColor;
+}
+
+button.nav.default-nav:hover {
+    background: transparent;
+}button.nav.default-nav {
+    background: transparent;
 }

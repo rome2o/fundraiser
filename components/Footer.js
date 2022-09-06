@@ -1,194 +1,35 @@
+import {BsFacebook} from 'react-icons/bs'
+import {SiEventbrite} from 'react-icons/si'
 export default function Footer() {
   return (
-    <footer className="pb-4 text-gray-200">
-      <div className="max-w-5xl xl:max-w-5xl mx-auto divide-y divide-gray-900 px-4 sm:px-6 md:px-8">
-        <ul className="text-sm font-medium sm:pb-20 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
-          <li className="space-y-5 row-span-2">
-            <h2 className="text-2xl tracking-wide text-white">Company</h2>
-            <ul className="space-y-4 text-md">
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Jobs
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Merch
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Brand
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Meetups
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="space-y-5 row-span-2">
-            <h2 className="text-2xl tracking-wide text-white">Newsroom</h2>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  News
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Press
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="space-y-5 row-span-2">
-            <h2 className="text-2xl tracking-wide text-white">Products</h2>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Hosting
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Domains
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Security
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  SSL
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="space-y-5">
-            <h2 className="text-2xl tracking-wide text-white">Connect</h2>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 font-semibold text-xl"
-                  href="/"
-                >
-                  Instagram
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <div className="flex flex-col-reverse justify-between pt-5 pb-4 border-t lg:flex-row bg-top border-black">
-          <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <li>
-              <a
-                href="/"
-                className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
-              >
-                Terms of Service
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
-              >
-                Ad Choices
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
-              >
-                Cookie Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
-              >
-                Partners
-              </a>
-            </li>
-          </ul>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <a
-              href="/"
-              className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
-            >
-              © 2021 Company Inc.
-            </a>
-          </ul>
+    <footer class="bg-gray-50 py-16">
+    <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="flex flex-col lg:flex-row  items-center justify-center">
+            <div class="space-y-7 mb-10 lg:mb-0">
+                <div class="flex justify-center lg:justify-start">
+                    <img src="images/logo.png" className="max-w-xs" alt="Image" />
+                </div>
+                <p class="font-light text-gray-400 text-md md:text-lg text-center ">Join our hands to raise the funds <br /> by common people, for common people.</p>
+                <div class="flex items-center justify-center  space-x-5">
+                    <a href="#" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
+                        <BsFacebook />
+                    </a>
+                    <a href="#" class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-info hover:text-white transition ease-in-out duration-500">
+                        <SiEventbrite />
+                    </a>
+                </div>
+            </div>
+
+            {/* <div class="text-center lg:text-left space-y-3 mb-10 lg:mb-0">
+                <h4 class="font-semibold text-gray-900 text-lg md:text-2xl">Quick links</h4>
+                <a href="#" class="block font-light text-gray-400 text-sm md:text-lg hover:text-gray-800 transition ease-in-out duration-300">Facebook event</a>
+                <a href="https://www.eventbrite.com.au/e/pakistan-floods-fund-raising-fawkner-community-sports-hall-tickets-414411625327" target="_blank" class="block font-light text-gray-400 text-sm md:text-lg hover:text-gray-800 transition ease-in-out duration-300">Eventbrite</a>
+                <a href="https://wa.me/61421819627" target="_blank" class="block font-light text-gray-400 text-sm md:text-lg hover:text-gray-800 transition ease-in-out duration-300">Chat on Whatsapp</a>
+            </div> */}
+
         </div>
-      </div>
-    </footer>
+    </div> 
+
+</footer>
   );
 }
