@@ -11,16 +11,25 @@ export default function Home() {
   return (
     <div>
       <NextSeo
-        title="Home: nine4"
-        description="Welcome to nine4 homepage."
-        canonical="https://nine4-3.vercel.app/"
+        title="Fundraiser - Support flood victims in Pakistan"
+        description="Join our hands at the moment of need to help
+        flood affectees in Pakistan. 100% of profit goes to donation."
+        
+        canonical="https://fundraiser-vert.vercel.app/"
         openGraph={{
-          url: "https://nine4-3.vercel.app/",
+          url: "https://fundraiser-vert.vercel.app/",
+          images: [
+            {
+              url: 'images/favicon.png',
+              alt: 'Fundraiser - Support flood victims in Pakistan'
+            }
+          ]
         }}
       />
       <Head>
         <title>Fundraiser - Flood Victims in Pakistan</title>
         <link rel="icon" href="/favicon.png" />
+        <meta name="theme-color" content="#125400" />
       </Head>
       <Header />
       <Main />
