@@ -13,7 +13,7 @@ export default function Features(){
 
             <h4 class="font-semibold text-lg md:text-2xl text-gray-900 mb-6">{heading}</h4>
 
-            <p class="font-light text-gray-500 text-md md:text-xl mb-6">{text}</p>
+            <p class="font-md text-gray-700 text-md md:text-xl mb-6">{text}</p>
 
             {learnMore && <div class="flex justify-center">
                 <a href="#" class="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-info hover:text-white transition ease-linear duration-500">
