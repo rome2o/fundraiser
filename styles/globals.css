@@ -102,8 +102,6 @@ a {
     fill: currentColor;
 }
 
-button.nav.default-nav:hover {
-    background: transparent;
-}button.nav.default-nav {
+button.nav.default-nav:hover,button.nav.default-nav, button.nav.default-nav:focus , button.nav.default-nav:active {
     background: transparent;
 }
