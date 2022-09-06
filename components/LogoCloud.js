@@ -18,7 +18,7 @@ export default function LogoCloud(){
             </div>
         </div>
 
-        <div class="text-center mt-4">
+        <div class="text-center mt-6">
             <a class="px-6 py-4 bg-info inline font-semibold text-white text-lg rounded-xl bg-green-500 hover:bg-green-600 transition ease-in-out duration-500" href="mailto:samar.ansari@gmail.com">
                 Become a sponsor
             </a>
