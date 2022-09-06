@@ -1,6 +1,6 @@
 export default function LogoCloud(){
     return (
-        <div class="pt-16 bg-white">
+        <div class="py-16 ">
         <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-56">
             <div class="m-auto text-center lg:w-7/12">
                 <h2 class="text-2xl text-gray-800 font-bold md:text-4xl">Supported by</h2>

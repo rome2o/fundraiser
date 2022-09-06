@@ -25,7 +25,7 @@ export default function Features(){
         );
     }
     return (
-    <section class="bg-white py-16 md:mt-10">
+    <section class="bg-gray-50 py-16 md:mt-10">
         <div class="container max-w-screen-xl mx-auto px-4">
             <div class="text-center"><p class="font-light text-black px-4 py-2 rounded-full text-lg md:text-xl text-center uppercase mb-6 bg-yellow-400 inline-block mx-auto">EVENT DETAILS</p></div>
             <h1 class="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-10">Join us on 24th of September <br /> Fawkner Sports Hall</h1>

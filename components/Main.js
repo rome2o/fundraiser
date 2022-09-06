@@ -3,7 +3,7 @@ import EventCard from "./EventCard";
 
 export default function Main() {
   return (
-    <div class="container max-w-screen-xl mx-auto px-4  items-center mt-28 py-20 border-b-2 border-dashed border-gray-300 ">
+    <div class="container max-w-screen-xl mx-auto px-4 items-center mt-28 py-20 ">
       <div class="flex flex-col lg:flex-row justify-between lg:space-x-20 items-center">
         <div class="text-center lg:text-left">
           <h1 class="font-semibold text-gray-900 text-3xl md:text-6xl leading-normal mb-6">
